@@ -28,7 +28,7 @@ def contact():
 @app.route('/resume')
 def download_resume():
     # sends static/resume.pdf as a download
-    return send_from_directory('static', 'hasRes.pdf', as_attachment=True)
+    return send_from_directory('static', 'Res.pdf', as_attachment=True)
 
 if __name__ == '__main__':
     # debug=True for local development; turn off in production
